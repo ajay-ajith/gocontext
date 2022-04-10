@@ -29,7 +29,7 @@ func main() {
 		"https://www.google.co.in",
 	}
 
-	const MAXWORKERS = 3
+	const MAXWORKERS = 5
 
 	url_server := make(chan string)
 	client := http.Client{}
